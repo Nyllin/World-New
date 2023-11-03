@@ -1,0 +1,114 @@
+.photos-container {
+    background-color: #ededeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .photos-happening {
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+  }
+  
+  .photos-happening-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .photos-happening-cards {
+    display: flex;
+    overflow: hidden;
+  }
+  .photos-happening-cards-one{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .photos-happening-cards-one .discovery-trending-card {
+    width: 95%;
+    height: 400px;
+    position: relative;
+    
+  }
+
+  .photos-happening-cards-one .discovery-trending-card .discovery-trending-card-content{
+    position: absolute;
+    color: #fff;
+    top: 75%;
+  }
+
+  .photos-happening-cards-two{
+    width: 30%;
+
+  }
+
+  .photos-happening-cards-one span, .photos-happening-cards-two span{
+    color: #888;
+
+  }
+
+  .photos-happening-cards-two .discovery-trending-card{
+    background-color: transparent;
+    border: 0;
+  }
+
+  .photos-happening-cards-two .discovery-trending-card .discovery-trending-card-text{
+    display: none;
+  }
+  
+  .photos-happening-carousel {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .photos-happening-card {
+    width: 300px;
+  }
+
+ 
+  
+  @media only screen and (max-width: 900px) {
+    .photos-happening-cards {
+      display: block;
+      padding-top: 20px;
+      
+    }
+  
+  
+    .photos-happening-cards-one,.photos-happening-cards-two{
+      
+      width: 100%;
+    }
+
+    .photos-happening-cards-one .discovery-trending-card, .photos-happening-cards-two .discovery-trending-card{
+      width: 400px;
+      height: 400px;
+      background-color: transparent;
+      border: 0;
+
+    }
+
+    .photos-happening-cards-one .discovery-trending-card .discovery-trending-card-content{
+      position: absolute;
+      color: #000;
+      top: 70%;
+      
+    }
+
+ 
+
+   
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .photos-happening-card {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+   
+  }
+  

@@ -1,0 +1,38 @@
+.contact-container{
+    background-color: #8a94a5;
+    color: #fff;
+    
+}
+
+.contact-list ul li{
+    list-style: none;
+}
+
+.contact-list ul li .contact-list-item{
+    text-decoration: none;
+    color: #d0cbcb;
+   
+}
+.contact-span{
+    color: #d0cbcb;
+}
+
+.contact-search{
+    background-color: transparent !important;
+    color: #d0cbcb !important;
+    width: 300px !important;
+    position: absolute;
+
+}
+
+
+.contact-search-icon{
+    position: relative;
+    left: 270px;
+    top: 5px;
+
+}
+
+@media (max-width: 480px) {
+  
+}
